@@ -1,0 +1,157 @@
+   body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #f8b4c6;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            
+        }
+        header .contact-info {
+            font-size: 14px;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #f06292;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            padding: 10px;
+        }
+        section {
+            margin-bottom: 90px;
+            }
+        .catalog-item {
+            align-items: center;
+            display: inline-block;
+            width: 400px;
+            margin: 10px;
+            text-align: center;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .catalog-item:hover {
+            background-color: #e27d9f;
+        
+        }
+
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+        form label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        form input, form textarea, form button {
+            width: 100%;
+            margin-bottom: 15px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        footer {
+            z-index: 1000;
+            background-color: #f06292;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            bottom: 0;
+            width: 100%;
+            position: fixed;
+            box-sizing: border-box;
+            left: 0;
+        }
+        h1{
+            text-align: center;
+            font-size: 60px;
+        }
+        .imgg {
+            width: 100%;
+            height: 10%;
+            margin-top: 10px;
+        }
+
+        .imge {
+            max-width: 200px;
+            width: 200px;
+            height: auto;
+            margin: 0 auto;
+            position: relative;
+            overflow: hidden;
+            top: 10px;
+        }
+
+        .texto {
+            text-align: center;
+
+        }
+
+        .tituloofertas{
+            margin-top: 200px;
+            text-align: center;
+
+        }
+
+        .boton-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px; /* Adds some space between the buttons */
+            width: 100%;
+            margin-top: 20px;
+        }
+
+        .botonver {
+            border-radius: 15px;
+            color: #e27d9f;
+            height: 50px;
+            border: none;
+            cursor: pointer;
+            padding: 10px 20px;
+            font-size: 16px;
+            text-align: center;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+
+        .botonver:hover{
+            background-color: #f06292;
+            color: #ddd;
+        }
+
+        .catalogo{
+            text-align: center;
+            margin: 10px;
+            font-size: 40px;
+            color: #f06292;
+
+        }
+
+        .catalog-item {
+            display: inline-block;
+            width: 30%;
+            margin: 10px;
+            text-align: center;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
