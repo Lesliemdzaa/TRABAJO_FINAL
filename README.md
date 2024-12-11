@@ -16,7 +16,6 @@
         <a href="catalogo.html">Catálogo</a>
         <a href="ofertas.html">Ofertas</a>
         <a href="acerca.html">Acerca de Nosotros</a>
-        <a href="contacto.html">Contacto</a>
     </nav>
 
 
