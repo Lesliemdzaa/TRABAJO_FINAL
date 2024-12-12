@@ -4,12 +4,12 @@ html{
     position: relative;
    }
    body {
-    font-family: Arial, sans-serif;
+    font-family: Monaco (monospace);
     margin: 0;
     padding: 0;
 }
 header {
-    background-color: #ff0080;
+    background-color: #f75db9;
     color: white;
     padding: 15px 20px;
     text-align: center;
@@ -24,7 +24,7 @@ header .contact-info {
 nav {
     display: flex;
     justify-content: center;
-    background-color: #536493;
+    background-color: #fa94d1;
     padding: px 0;
 }
 nav a {
@@ -72,7 +72,7 @@ form input, form textarea, form button {
     border-radius: 5px;
 }
 footer {
-    background-color: #536493;
+    background-color: #fa94d1;
     color: white;
     text-align: center;
     padding: 10px 0;
