@@ -8,7 +8,7 @@ body {
     padding: 0;
 }
 header {
-    background-color: #f8b4c6;
+    background-color: #f75db9;
     color: white;
     padding: 15px 20px;
     text-align: center;
@@ -23,7 +23,7 @@ header .contact-info {
 nav {
     display: flex;
     justify-content: center;
-    background-color: #536493;
+    background-color: #fa94d1;
     padding: 10px 0;
 }
 nav a {
@@ -41,7 +41,7 @@ main {
 .about-container {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 40px; /* Add space between this section and valores */
+    margin-bottom: 40px; 
 }
 .about-content {
     flex: 2;
@@ -60,10 +60,10 @@ main {
     width: 30%;
 }
 .contact-section:hover {
-    background-color: #FFF1DB;
+    background-color: #f8b4c6;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
     transform: scale(1.02);
-    color: #EF5A6F;
+    color: #f4c4e1;
 }
 form {
     max-width: 300px;
@@ -73,7 +73,7 @@ form label {
     display: block;
     margin-bottom: 5px;
     text-align: left;
-    color: #536493;
+    color: #f06292;
 }
 form input, form textarea, form button {
     width: 95%;
@@ -101,11 +101,11 @@ form input, form textarea, form button {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 .catalog-item:hover {
-    background-color: #D4BDAC;
+    background-color: #f4c4e1;
     transform: scale(1.05);
 }
 .boton {
-    background-color: #EF5A6F;
+    background-color: #fa94d1;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -114,16 +114,16 @@ form input, form textarea, form button {
     transition: background-color 0.3s ease;
 }
 .boton:hover {
-    background-color: #536493;
+    background-color: #f75db9;
 }
 h2 {
-    color: #536493;
+    color: #f06292;
 }
 .bb {
     justify-items: center;
 }
 h3, p {
-    color: #EF5A6F;
+    color: #fa94d1;
 }
 img {
     width: 50%;
@@ -134,7 +134,7 @@ img:hover {
     transform: scale(1.05);
 }
 footer {
-    background-color: #536493;
+    background-color: #fa94d1;
     color: white;
     text-align: center;
     padding: 10px 0;
@@ -163,8 +163,8 @@ footer {
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 15px;
-    width: 100%; /* Ensure it spans full width */
-    clear: both; /* Ensure it appears below both previous sections */
+    width: 100%; 
+    clear: both; 
     margin-top: 40px;
 }
 
