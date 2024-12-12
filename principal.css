@@ -28,10 +28,10 @@ nav {
     padding: px 0;
 }
 nav a {
-    color: white;
+    color: #fcf3e1;
     text-decoration: none;
     margin: 0 15px;
-    font-weight: bold;
+    font-weight: medium;
     
 }
 nav a:hover {
@@ -85,7 +85,7 @@ footer {
         h1{
             text-align: center;
             font-size: 60px;
-            color: #c6c6c6;
+            color: white;
             margin: 0;
         }
         .imgg {
@@ -160,7 +160,7 @@ footer {
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         }
         .catalog-item:hover {
-            background-color: #D4BDAC;
+            background-color: #ffb8e3 ;
             transform: scale(1.05);
         }
 
