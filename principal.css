@@ -4,13 +4,13 @@ html{
     position: relative;
    }
    body {
-    font-family: Monaco (monospace);
+    font-family: Monaco,(monospace);
     margin: 0;
     padding: 0;
 }
 header {
     background-color: #f75db9;
-    color: white;
+    color: #f4c4e1;
     padding: 15px 20px;
     text-align: center;
     position: sticky;
@@ -85,7 +85,7 @@ footer {
         h1{
             text-align: center;
             font-size: 60px;
-            color: #ffffff;
+            color: #c6c6c6;
             margin: 0;
         }
         .imgg {
@@ -145,7 +145,7 @@ footer {
             text-align: center;
             margin: 10px;
             font-size: 40px;
-            color: #536493;
+            color: #f06292;
 
         }
 
