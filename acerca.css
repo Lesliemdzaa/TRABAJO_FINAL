@@ -6,7 +6,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    color: #740938;
+    color: #AB4459;
     background-color: #fff0dc;
 
 }
@@ -33,13 +33,13 @@ nav {
     display: flex;
     justify-content: center;
     background-color: #DE7C7D;
-    padding: 10px 0;
+    padding: 0px;
     width: 100%;
     flex-wrap: wrap;
     
 }
 nav a {
-    color: white;
+    color: #740938;
     text-decoration: none;
     margin: 10px 15px;
     font-weight: bold;
