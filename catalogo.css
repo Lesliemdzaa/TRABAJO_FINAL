@@ -9,7 +9,7 @@ html{
     padding: 0;
 }
 header {
-    background-color: #f8b4c6;
+    background-color: #f75db9;
     color: white;
     padding: 15px 20px;
     text-align: center;
@@ -24,14 +24,14 @@ header .contact-info {
 nav {
     display: flex;
     justify-content: center;
-    background-color: #536493;
+    background-color: #fa94d1;
     padding: px 0;
 }
 nav a {
-    color: white;
+    color: #e27d9f;
     text-decoration: none;
     margin: 0 15px;
-    font-weight: bold;
+    font-weight: medium;
     
 }
 nav a:hover {
@@ -72,7 +72,7 @@ form input, form textarea, form button {
     border-radius: 5px;
 }
 footer {
-    background-color: #536493;
+    background-color: #fa94d1;
     color: white;
     text-align: center;
     padding: 10px 0;
