@@ -6,31 +6,44 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    color: #AB4459;
+    background-color: #fff0dc;
+
 }
 header {
-    background-color: #f75db9;
-    color: white;
-    padding: 15px 20px;
+    background-color: #740938;
+    color: #FFF0DC;
+    padding: 25px 20px;
     text-align: center;
     position: sticky;
     top: 0;
     z-index: 1000;
-    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header h1 {
+    margin-bottom: 15px;
+
 }
 header .contact-info {
-    font-size: 14px;
+    font-size: 25px;
 }
 nav {
     display: flex;
     justify-content: center;
-    background-color: #fa94d1;
+    background-color: #DE7C7D;
     padding: 10px 0;
+    width: 100%;
+    flex-wrap: wrap;
+    
 }
 nav a {
     color: white;
     text-decoration: none;
-    margin: 0 15px;
+    margin: 10px 15px;
     font-weight: bold;
+    white-space: nowrap;
 }
 nav a:hover {
     text-decoration: underline;
@@ -38,10 +51,14 @@ nav a:hover {
 main {
     padding: 20px;
 }
+section {
+    margin-bottom: 40px;
+}
+
 .about-container {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 40px; 
+    margin-bottom: 60px; 
 }
 .about-content {
     flex: 2;
@@ -53,17 +70,17 @@ main {
     overflow: hidden;
     transition: transform 0.3s ease;
     text-align: center;
-    background-color: white;
+    background-color: #740938;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
     margin-right: 0;
     margin-left: auto;
     width: 30%;
 }
 .contact-section:hover {
-    background-color: #f8b4c6;
+    background-color: #FFF1DB;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
     transform: scale(1.02);
-    color: #f4c4e1;
+    color: #EF5A6F;
 }
 form {
     max-width: 300px;
@@ -73,7 +90,7 @@ form label {
     display: block;
     margin-bottom: 5px;
     text-align: left;
-    color: #f06292;
+    color: #AF1740;
 }
 form input, form textarea, form button {
     width: 95%;
@@ -101,12 +118,12 @@ form input, form textarea, form button {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 .catalog-item:hover {
-    background-color: #f4c4e1;
+    background-color: #DE7C7D;
     transform: scale(1.05);
 }
 .boton {
-    background-color: #fa94d1;
-    color: white;
+    background-color: #EF5A6F;
+    color: #AF1740;
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
@@ -114,16 +131,16 @@ form input, form textarea, form button {
     transition: background-color 0.3s ease;
 }
 .boton:hover {
-    background-color: #f75db9;
+    background-color: #AF1740;
 }
 h2 {
-    color: #f06292;
+    color: #AF1740;
 }
 .bb {
     justify-items: center;
 }
 h3, p {
-    color: #fa94d1;
+    color: #740938;
 }
 img {
     width: 50%;
@@ -134,8 +151,8 @@ img:hover {
     transform: scale(1.05);
 }
 footer {
-    background-color: #fa94d1;
-    color: white;
+    background-color: #740938;
+    color: #fff0dc;
     text-align: center;
     padding: 10px 0;
     position: relative;
@@ -163,8 +180,8 @@ footer {
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 15px;
-    width: 100%; 
-    clear: both; 
+    width: 100%; /* Ensure it spans full width */
+    clear: both; /* Ensure it appears below both previous sections */
     margin-top: 40px;
 }
 
