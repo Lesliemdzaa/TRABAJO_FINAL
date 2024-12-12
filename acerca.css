@@ -6,13 +6,13 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    color: #AB4459;
+    color: #740938;
     background-color: #fff0dc;
 
 }
 header {
     background-color: #740938;
-    color: #FFF0DC;
+    color: #de7c7d;
     padding: 25px 20px;
     text-align: center;
     position: sticky;
@@ -23,7 +23,7 @@ header {
     align-items: center;
 }
 header h1 {
-    margin-bottom: 15px;
+    margin-bottom: 25px;
 
 }
 header .contact-info {
