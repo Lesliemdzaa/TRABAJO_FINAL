@@ -12,8 +12,8 @@ body {
 }
 header {
     background-color: #740938;
-    color: #de7c7d;
-    padding: 25px 20px;
+    color: #fff0dc;
+    padding: 10px 15px;
     text-align: center;
     position: sticky;
     top: 0;
@@ -21,6 +21,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-size: 30px;
 }
 header h1 {
     margin-bottom: 25px;
@@ -49,7 +50,7 @@ nav a:hover {
     text-decoration: underline;
 }
 main {
-    padding: 20px;
+    padding: 30px;
 }
 section {
     margin-bottom: 40px;
