@@ -18,26 +18,17 @@ header {
     position: sticky;
     top: 0;
     z-index: 1000;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    position: relative;
     font-size: 30px;
 }
-header h1 {
-    margin-bottom: 25px;
-
-}
 header .contact-info {
-    font-size: 25px;
+    font-size: 50px;
 }
 nav {
     display: flex;
     justify-content: center;
     background-color: #DE7C7D;
     padding: 0px;
-    width: 100%;
-    flex-wrap: wrap;
-    
 }
 nav a {
     color: #740938;
@@ -45,7 +36,7 @@ nav a {
     margin: 10px 15px;
     font-weight: bold;
     white-space: nowrap;
-}
+}   
 nav a:hover {
     text-decoration: underline;
 }
